@@ -1,0 +1,103 @@
+@media screen and (min-width:320px) and (max-width: 1024px) {
+    .order_table {
+        display: none;
+    }
+    /* order sp */
+    .order_sp {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .order_sp_items {
+        margin-top: 10px;
+        padding: 5px 10px;
+    }
+    .order_sp_items h3 {
+        font-size: 0.8rem;
+        font-family: hiraginoSansw6;
+    }
+    .order_sp_items p {
+        font-family: hiraginoSansw5;
+        font-size: 0.6rem;
+    }
+    /* total cart */
+    .total_cart {
+        text-align: right;
+        font-size: 0.8rem;
+        margin-top: 10px;
+    }
+    /* information */
+    .informations {
+        margin-top: 30px;
+    }
+    .infor {
+        border: none;
+    }
+    .infor_content {
+        align-items: flex-start;
+        flex-direction: column;
+        padding: 10px 0 15px 0;
+    }
+    .infor_content_input_text {
+        font-size: 0.6rem;
+    }
+    .infor_name_tag,
+    .infor_content_input {
+        width: 100%;
+        background-color: #FFFFFF;
+        padding: 0;
+        border-right: none;
+    }
+    .infor_name_tag {
+        font-size: 0.6rem;
+    }
+    .content_input_required {
+        margin-bottom: 5px;
+    }
+    .infor_content_input img {
+        width: 50%;
+        object-fit: cover;
+    }
+    input {
+        font-size: 0.8rem;
+    }
+    .content_select1,
+    .content_select2 {
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 5px;
+    }
+    /* .select1,
+    .select2 {
+        width: 220px;
+    } */
+    .infor_content_select {
+        flex-direction: column;
+        width: 100%;
+    }
+    /* check */
+    .check a.check_button1,
+    .check a.check_button2 {
+        width: 45%;
+        margin: 5px;
+        padding: 5px 0;
+        font-size: 1rem;
+        border-radius: 50px;
+    }
+}
+
+
+/* 
+@media screen and (min-width: 375px) and (max-width: 1024px) {
+    .select1,
+    .select2 {
+        width: 275px;
+    }
+}
+
+@media screen and (min-width: 414px) and (max-width: 1024px) {
+    .select1,
+    .select2 {
+        width: 300px;
+    }
+} */

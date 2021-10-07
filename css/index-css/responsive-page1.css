@@ -1,0 +1,245 @@
+@media screen and (min-width: 320px) and (max-width: 1024px) {
+	.wrapper-page1 {
+		margin-bottom: 0px;
+	}
+	/* home title */
+	.home_title h3.home_text {
+		font-size: 0.6rem;
+		padding: 0;
+	}
+	.home_title h3.home_text span {
+		font-size: 1rem;
+	}
+	.home_title_icon {
+		width: 45px;
+		height: 45px;
+	}
+	.home_title_icon img {
+		width: 75%;
+	}
+	.home_title {
+		margin-top: 15px;
+	}
+	/* priview box  */
+	.box_title h3 {
+		font-size: 0.8rem;
+	}
+	.box_title {
+		padding: 10px 5px 0 5px;
+	}
+	.preview_box {
+		padding: 20px 5px;
+		flex-direction: column;
+	}
+	/* items_ledt */
+	.items_left {
+		width: 100%;
+	}
+	.items_img {
+		width: calc(100% / 5);
+	}
+	.items_img img {
+		padding: 5px;
+		border: 2px solid #ffe0e8;
+		object-fit: cover;
+		width: 90%;
+	}
+	.items_img p {
+		font-size: 9px;
+		margin-top: 0;
+	}
+	.items_img::after {
+		background-size: 8px 10px;
+		width: 8px;
+		height: 10px;
+		right: 7px;
+		bottom: 28px;
+	}
+	.left_content-03 {
+		margin-top: 15px;
+	}
+	.left_content-03 a.button {
+		padding: 10px;
+		width: 47%;
+		display: inline-block;
+		margin: 0 5px;
+		font-size: 0.8rem;
+		background-color: #1fbb8d;
+	}
+	/* items right */
+	.items_right {
+		width: 100%;
+		margin-top: 20px;
+	}
+	.select,
+	.input_box {
+		margin-bottom: 5px;
+	}
+	select,
+	.input_box,
+	.input_box input {
+		height: 25px;
+	}
+	select {
+		width: 110px;
+		font-size: 0.6rem;
+	}
+	.select p {
+		font-size: 0.6rem;
+	}
+	select option {
+		font-size: 0.6rem;
+	}
+	.input_box label {
+		font-size: 0.6rem;
+		margin-right: 5px;
+	}
+	.select::after {
+		font-size: 8px;
+		padding: 7px;
+	}
+	/* total cart */
+	.total_cart a.button {
+		font-size: 0.8rem;
+		padding: 10px 0;
+		border-bottom: 2px solid #161616;
+	}
+	.cart_money p {
+		font-size: 0.8rem;
+	}
+	.cart_money p span {
+		font-size: 0.6rem;
+	}
+	/* new cart? */
+	.new_cart_button a.button {
+		padding: 15px 25px;
+		font-size: 0.8rem;
+		font-family: hiraginoSansw6;
+	}
+	.new_cart_button a.button i {
+		font-size: 1.2rem;
+	}
+	/* next page */
+	.next_page {
+		border: 5px solid #fff3f3;
+		padding: 5px;
+		justify-content: space-between;
+		margin-bottom: 100px;
+	}
+	.next_page a.button {
+		padding: 5px 15px;
+		font-size: 0.6rem;
+		margin-left: 0px;
+		font-family: hiraginoSansw5;
+	}
+	.next_page .next_text h3 {
+		font-size: 1rem;
+		margin-left: 0;
+		flex-direction: row;
+	}
+	.next_text {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	.next_page .next_text p {
+		font-size: 0.6rem;
+	}
+	.next_page .next_text span {
+		font-size: 0.6rem;
+	}
+	.next_page a img {
+		width: 20px;
+	}
+}
+
+@media screen and (min-width: 525px) {
+	/* home title */
+	.home_title h3.home_text {
+		font-size: 1.2rem;
+		padding: 0;
+	}
+	.home_title h3.home_text span {
+		font-size: 1.8rem;
+	}
+	/* preview box */
+	.items_img img {
+		padding: 15px;
+		width: 90%;
+	}
+	.items_img::after {
+		background-size: 15px 15px;
+		width: 15px;
+		height: 15px;
+		right: 7px;
+		bottom: 25px;
+	}
+	.items_img p {
+		font-size: 12px;
+		margin-top: 0;
+	}
+	select,
+	.input_box,
+	.input_box input {
+		height: 30px;
+	}
+	.select::after {
+		font-size: 10px;
+		padding: 10px;
+	}
+	select {
+		width: 170px;
+		font-size: 1rem;
+	}
+	.select p {
+		font-size: 1rem;
+	}
+	select option {
+		font-size: 1rem;
+	}
+	.input_box label {
+		font-size: 1rem;
+		margin-right: 5px;
+	}
+	/* cart money */
+	.cart_money p {
+		font-size: 1rem;
+	}
+	.cart_money p span {
+		font-size: 0.8rem;
+	}
+	/* total cart */
+	.total_cart a.button {
+		font-size: 1rem;
+	}
+	/* new cart */
+	.new_cart_button a.button {
+		font-size: 1rem;
+	}
+	/* next page */
+	.next_page a.button {
+		padding: 10px 50px;
+		font-size: 1rem;
+	}
+	.next_page a img {
+		width: 25px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.items_img img {
+		padding: 30px;
+	}
+	.items_img::after {
+		background-size: 20px 20px;
+		width: 20px;
+		height: 20px;
+		right: 15px;
+		bottom: 30px;
+	}
+	/* preview box */
+	.left_content-03 a.button {
+		padding: 10px;
+		width: 35%;
+	}
+}

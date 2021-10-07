@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>michi-page-2</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/footer.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/page-2/body-2.css">
+	<link rel="stylesheet" href="css/page-2/responsive-page2.css">
+	<link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+	<header id="header">
+		<div class="container">
+			<div class="wrapper">
+				<div class="header_logo">
+					<a href="#">
+						<img src="img/logo.png" alt="logo">
+					</a>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="container clear">
+		<div class="wrapper-page2">
+			<nav class="navbar">
+				<div class="wrapper-nav">
+					<ul class="navbar_list">
+						<li>
+							<a href="./index.html">ショッピングカート</a>
+						</li>
+						<li>
+							<a class="active" href="./page-2.html">お届け先・お支払方法の選択</a>
+						</li>
+						<li>
+							<a href="./page-3.html">ご注文内容の確認</a>
+						</li>
+						<li>
+							<a href="./page-4.html">ご注文完了</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+			<div class="wrapper-main clear">
+				<section class="address">
+					<div class="title">
+						<div class="title_text">
+							<h2>お届け先</h2>
+						</div>
+					</div>
+					<div class="address_box">
+						<ul class="address_box_main">
+							<li>
+								<div class="address_content">
+									<div class="address_name_tag">
+										<h3>会社名</h3>
+									</div>
+									<div class="address_content_input">
+										<div class="content_input_required">
+											<input id="myTextField" type="text">
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="address_content">
+									<div class="address_name_tag">
+										<h3>氏名</h3>
+									</div>
+									<div class="address_content_input">
+										<div class="content_input_required">
+											<span class="required_span">必須</span>
+											<input class="input_edit" id="myTextField" type="text">
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="address_content address_content_edit">
+									<div class="address_name_tag">
+										<h3>住所</h3>
+									</div>
+									<div class="address_content_input ">
+										<ul>
+											<li>
+												<label for="">郵便番号</label>
+												<div class="content_input_required required_width2">
+													<span class="required_span">必須</span>
+													<input class="input_edit" id="myTextField" type="text">
+												</div>
+											</li>
+											<li>
+												<label for="">都道府県</label>
+												<div class="content_input_required">
+													<span class="required_span">必須</span>
+													<div class="select">
+														<select>
+															<option value="1">選択してください</option>
+															<option value="2">選択してください 2</option>
+															<option value="3">選択してください 3</option>
+														</select>
+													</div>
+												</div>
+											</li>
+											<li>
+												<label for="">市町村区</label>
+												<div class="content_input_required requỉed_width">
+													<span class="required_span">必須</span>
+													<input class="input_edit" id="myTextField" type="text">
+												</div>
+											</li>
+											<li>
+												<label for="">番地</label>
+												<div class="content_input_required requỉed_width">
+													<span class="required_span">必須</span>
+													<input class="input_edit" id="myTextField" type="text">
+												</div>
+											</li>
+											<li>
+												<label for="">建物名</label>
+												<div class="content_input_required requỉed_width">
+													<input placeholder="建物名・部屋番号をご記入下さい。" id="myTextField" type="text">
+												</div>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="address_content">
+									<div class="address_name_tag">
+										<h3>電話番号</h3>
+									</div>
+									<div class="address_content_input">
+										<div class="content_input_required">
+											<span class="required_span">必須</span>
+											<input class="input_edit" id="myTextField" type="text">
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="address_content border-none">
+									<div class="address_name_tag">
+										<h3>メールアドレス</h3>
+									</div>
+									<div class="address_content_input">
+										<div class="content_input_required">
+											<span class="required_span">必須</span>
+											<input class="input_edit" id="myTextField" type="text">
+										</div>
+										<p>※ドメイン指定受信を設定されている場合は、{$ドメイン} からの受信許可をお願いします。</p>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<section class="payment">
+					<div class="title">
+						<div class="title_text">
+							<h2>お支払い方法</h2>
+						</div>
+					</div>
+					<div class="payment_main">
+						<div class="payment_text">
+							<h3>決済方法</h3>
+						</div>
+						<div class="payment_content">
+							<div class="payment_content_text">
+								<h3>決済方法</h3>
+								<span class="required_span">必須</span>
+
+							</div>
+							<div class="payment_box">
+								<div class="payment_items">
+									<div class="payment_items_title">
+										<i class='bx bxs-check-circle active'>
+											<p>クレジットカード決済</p>
+										</i>
+									</div>
+									<div class="payment_items_content">
+										<img src="img/bank-logo-2.png" alt="bank-logo-2">
+										<p>（前払い）ご購入と同時に製作開始となります。お急ぎの方はクレジットカードをご利用ください。</p>
+									</div>
+								</div>
+								<div class="payment_items">
+									<div class="payment_items_title">
+										<i class='bx bxs-check-circle'>
+											<p>クレジットカード決済</p>
+										</i>
+									</div>
+									<div class="payment_items_content">
+										<p>（後払い）商品時に配達員に代金をお支払ください。手数料500円（税抜）</p>
+									</div>
+								</div>
+								<div class="payment_items">
+									<div class="payment_items_title">
+										<i class='bx bxs-check-circle'>
+											<p>クレジットカード決済</p>
+										</i>
+									</div>
+									<div class="payment_items_content">
+										<p>（後払い）後払いには与信審査がございます。商品到着後、２０日以内に請求書を後払いドットコムから郵送致します。</p>
+
+									</div>
+								</div>
+								<div class="payment_items">
+									<div class="payment_items_title">
+										<i class='bx bxs-check-circle'>
+											<p>クレジットカード決済</p>
+										</i>
+									</div>
+									<div class="payment_items_content">
+										<p>（前払い）Amazon.co.jpアカウントに登録されたクレジットカード情報を使って、お支払いができるサービスです。</p>
+
+									</div>
+								</div>
+								<div class="payment_items">
+									<div class="payment_items_title">
+										<i class='bx bxs-check-circle'>
+											<p>クレジットカード決済</p>
+										</i>
+									</div>
+									<div class="payment_items_content">
+										<p>（前払い）ご入金確認後に製作開始となります。 振込手数料はお客様ご負担となります。ご了承ください。</p>
+									</div>
+								</div>
+								<div class="payment_items">
+									<div class="payment_items_title">
+										<i class='bx bxs-check-circle'>
+											<p>クレジットカード決済</p>
+										</i>
+									</div>
+									<div class="payment_items_content">
+										<p>
+											（前払い）ご入金確認後に製作開始となります。ローソン、ファミリーマート、サンクス、サークルK、ミニストップ、デイリーヤマザキ、セイコーマートがご利用いただけます。1回のご注文での利用限度額は30万円未満です。
+										</p>
+									</div>
+								</div>
+								<div class="payment_items">
+									<div class="payment_items_title">
+										<i class='bx bxs-check-circle'>
+											<p>クレジットカード決済</p>
+										</i>
+									</div>
+									<div class="payment_items_content">
+										<p>各種チケットをご利用の方はこちらを選択ください。</p>
+									</div>
+								</div>
+							</div>
+							<div class="payment_content_text">
+								<span>※在庫切れや、デザインに不備がある等の場合、こちらのメールにご連絡させていただきますので、指定受信設定をされている場合は必ず、{$ドメイン}を受信可能に設定してください。</span>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="check clear">
+					<a class="button check_button2 " href="/index.html">戻る</a>
+					<a class="button check_button1" href="/page-3.html">確認する</a>
+				</section>
+			</div>
+		</div>
+
+	</div>
+	<footer id="footer">
+		<span>Copyright (C) 2017 michi, co LTD All Rights Reserved.</span>
+	</footer>
+</body>
+
+</html>

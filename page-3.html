@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>michi-page3</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/footer.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/page-3/body-3.css">
+	<link rel="stylesheet" href="css/page-3/responsive-page3.css">
+	<link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+	<header id="header">
+		<div class="container">
+			<div class="wrapper">
+				<div class="header_logo">
+					<a href="#">
+						<img src="img/logo.png" alt="logo">
+					</a>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="container clear">
+		<div class="wrapper-page3">
+			<nav class="navbar">
+				<div class="wrapper-nav">
+					<ul class="navbar_list">
+						<li>
+							<a href="./index.html">ショッピングカート</a>
+						</li>
+						<li>
+							<a href="./page-2.html">お届け先・お支払方法の選択</a>
+						</li>
+						<li>
+							<a class="active" href="./page-3.html">ご注文内容の確認</a>
+						</li>
+						<li>
+							<a href="./page-4.html">ご注文完了</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+			<div class="wrapper-main clear">
+				<section class="info_cart">
+					<div class="title">
+						<div class="title_text">
+							<h2>ご注文内容</h2>
+						</div>
+					</div>
+					<div class="order">
+						<!-- order pc -->
+						<div class="order_table">
+							<table>
+								<tr>
+									<th>商品</th>
+									<th>数量</th>
+									<th>料金</th>
+								</tr>
+								<tr>
+									<td class="border-edit">商品名商品名商品名商品名</td>
+									<td class="border-edit">1</td>
+									<td class="border-edit">2,000円</td>
+								</tr>
+								<tr>
+									<td>商品名</td>
+									<td>1</td>
+									<td>2,000円</td>
+								</tr>
+							</table>
+						</div>
+						<!-- end order pc -->
+						<!-- order sp (max-width 1024px)-->
+						<div class="order_sp">
+							<div class="order_sp_items">
+								<h3>商品名あいうえおかきくけこ商品名あいうえおかきくけこ商品名あいうえおかきくけこ</h3>
+								<p>個数：1</p>
+								<p>料金：2,000円</p>
+							</div>
+							<div class="order_sp_items">
+								<h3>商品名あいうえおかきくけこ商品名あいうえおかきくけこ商品名あいうえおかきくけこ</h3>
+								<p>個数：1</p>
+								<p>料金：2,000円</p>
+							</div>
+						</div>
+						<!-- end order sp -->
+						<!-- total cart -->
+						<div class="total_cart">
+							<p>商品小計：2,000円</p>
+							<p>送料：0円</p>
+							<p>消費税：100円</p>
+							<h4>合計金額：2,100円</h4>
+						</div>
+
+						<!-- end total cart -->
+					</div>
+				</section>
+				<section class="informations">
+					<div class="title">
+						<div class="title_text">
+							<h2>カード情報</h2>
+						</div>
+					</div>
+					<div class="infor">
+						<ul class="infor_box">
+							<li>
+								<div class="infor_content">
+									<div class="infor_name_tag">
+										<h3>カード番号</h3>
+									</div>
+									<div class="infor_content_input">
+										<div class="content_input_required">
+											<span class="required_span">必須</span>
+											<input placeholder="ハイフンなしで数字のみで記載してください。" id="myTextField" type="text">
+										</div>
+										<img src="img/bank-logo-3.jpg" alt="bank-logo-3">
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="infor_content">
+									<div class="infor_name_tag">
+										<h3>有効期限</h3>
+									</div>
+									<div class="infor_content_input infor_content_select">
+										<div class="content_input_required content_select1">
+											<span class="required_span">必須</span>
+											<div class="select select1">
+												<select>
+													<option value="1">2019年</option>
+													<option value="2">2020年</option>
+													<option value="3">2021年</option>
+												</select>
+											</div>
+										</div>
+										<div class="content_input_required content_select2">
+											<span class="required_span">必須</span>
+											<div class="select select2">
+												<select>
+													<option value="1">1月</option>
+													<option value="2">1月 2</option>
+													<option value="3">1月 3</option>
+												</select>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="infor_content">
+									<div class="infor_name_tag">
+										<h3>セキュリティコード</h3>
+									</div>
+									<div class="infor_content_input">
+										<div class="content_input_required">
+											<span class="required_span">必須</span>
+											<input id="myTextField" type="text">
+										</div>
+										<div class="infor_content_input_text">
+											<span>※</span>
+											<div>
+												<p>VISA、Master、JCB、Dinersは、クレジットカード裏面の３桁の番号。</p>
+												<p>AMEXは、クレジットカード表面の４桁の番号です。</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="infor_content">
+									<div class="infor_name_tag">
+										<h3>カード名義</h3>
+									</div>
+									<div class="infor_content_input">
+										<div class="content_input_required">
+											<span class="required_span">必須</span>
+											<input id="myTextField" type="text">
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="infor_content border_none">
+									<div class="infor_name_tag">
+										<h3>備考欄</h3>
+									</div>
+									<div class="infor_content_input">
+										<div class="content_input_required">
+											<textarea name="messager" id="messager" cols="30" rows="10"></textarea>
+										</div>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<section class="check clear">
+					<a class="button check_button2 " href="/page-2.html">戻る</a>
+					<a class="button check_button1" href="/page-4.html">確認する</a>
+				</section>
+			</div>
+		</div>
+
+	</div>
+	<footer id="footer">
+		<span>Copyright (C) 2017 michi, co LTD All Rights Reserved.</span>
+	</footer>
+</body>
+
+</html>

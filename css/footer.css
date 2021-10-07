@@ -1,0 +1,19 @@
+body {
+    min-height: 100vh;
+    position: relative;
+}
+
+#footer {
+    background-color: #ffefef;
+    padding: 20px 0;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+}
+
+#footer span {
+    font-size: 0.6rem;
+    font-family: hiraginoSansw6;
+}

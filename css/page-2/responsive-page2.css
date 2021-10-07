@@ -1,0 +1,103 @@
+@media screen and (min-width:320px) and (max-width:1024px) {
+    .address_box {
+        border: none;
+    }
+    .address_content {
+        flex-direction: column;
+        align-items: flex-start;
+        padding-bottom: 20px;
+        padding-top: 10px;
+    }
+    .address_name_tag {
+        width: 100%;
+        padding: 0;
+        background-color: #FFFFFF;
+        border-right: none;
+        font-size: 0.8rem;
+    }
+    .address_content_edit {
+        display: flex;
+        flex-direction: row !important;
+    }
+    .address_content_edit .address_name_tag {
+        width: 20% !important;
+    }
+    .address_content_input {
+        padding: 0;
+        width: 100%;
+    }
+    .address_content_input ul li {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .address_content_input ul li label {
+        width: 100%;
+        text-align: left;
+    }
+    .content_input_required {
+        width: 100% !important;
+    }
+    /* payment */
+    .payment_main {
+        border: none;
+    }
+    .payment_text {
+        display: none;
+    }
+    .payment_content .payment_content_text h3 {
+        display: block;
+        margin-right: 20px;
+    }
+    .payment_content {
+        width: 100%;
+        padding: 20px 0;
+    }
+    /* payment items */
+    .payment_items {
+        width: 100%;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .payment_items_title,
+    .payment_items_content {
+        border-bottom: none;
+        padding: 0;
+        width: 50%;
+    }
+    .payment_items_title i {
+        font-size: 1rem;
+    }
+    .payment_items_title i p,
+    .payment_items_content p,
+    .address_content_input p,
+    .payment_content_text span {
+        font-size: 0.6rem;
+    }
+    .check a.check_button1,
+    .check a.check_button2 {
+        width: 45%;
+        margin: 5px;
+        padding: 5px 0;
+        font-size: 1rem;
+        border-radius: 50px;
+    }
+}
+
+@media screen and (min-width:525px) and (max-width:1024px) {
+    .payment_items_title i p,
+    .payment_items_content p,
+    .address_content_input p,
+    .payment_content_text span {
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .payment_items_title i p,
+    .payment_items_content p,
+    .address_content_input p,
+    .payment_content_text span {
+        font-size: 1rem;
+    }
+}

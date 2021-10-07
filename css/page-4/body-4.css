@@ -1,0 +1,44 @@
+.thanks-page {
+	margin-top: 200px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	line-height: 2;
+	padding-bottom: 50px;
+}
+
+.thanks-page h2 {
+	font-family: hiraginoSansw6;
+	font-size: 2rem;
+	margin-bottom: 10px;
+}
+
+.thanks-page p {
+	font-family: hiraginoSansw5;
+}
+.thanks_button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	margin-top: 90px;
+}
+
+.thanks_button a.button {
+	padding: 10px 0;
+	border-radius: 50px;
+	width: 35%;
+	background-color: #e69c9d;
+	border-bottom-color: #c7858e;
+	font-family: hiraginoSansw6;
+	font-size: 1.8rem;
+	margin: 0 10px;
+}
+.btn-2 {
+	display: none !important;
+}
+
+.thanks-page h1 {
+	display: none;
+}
